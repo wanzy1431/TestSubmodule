@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_white_10"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_16">
+
+                <TextView
+                    android:id="@+id/tv_common_select_session_name"
+                    style="@style/text16_30"
+                    android:text="分别发送给：" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_10">
+
+                    <LinearLayout
+                        android:id="@+id/ly_common_select_session_list_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/iv_common_select_session_list_head"
+                            android:layout_width="@dimen/dp_40"
+                            android:layout_height="@dimen/dp_40"
+                            android:contentDescription="@null"
+                            android:scaleType="centerCrop"
+                            android:src="@mipmap/default_head" />
+
+                        <TextView
+                            android:id="@+id/tv_common_select_session_list_name"
+                            style="@style/text16_30"
+                            android:layout_marginLeft="@dimen/dp_10" />
+
+                    </LinearLayout>
+
+                    <com.unis.common_module.widget.MaxHeightRecyclerView
+                        android:id="@+id/rv_common_select_session_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="@dimen/dp_40"
+                        android:overScrollMode="never"
+                        android:scrollbars="none"
+                        app:maxHeight="@dimen/dp_200" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_common_select_session_send_content"
+                    style="@style/text14_A7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="@dimen/dp_50"
+                    android:maxLines="2"
+                    android:paddingTop="@dimen/dp_10"
+                    android:paddingBottom="@dimen/dp_10"
+                    android:scrollbars="vertical" />
+
+                <EditText
+                    android:id="@+id/et_common_select_session_mark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounder_f6_8"
+                    android:hint="留言"
+                    android:inputType="text"
+                    android:maxHeight="@dimen/dp_76"
+                    android:paddingLeft="@dimen/dp_13"
+                    android:paddingTop="@dimen/dp_7"
+                    android:paddingRight="@dimen/dp_13"
+                    android:paddingBottom="@dimen/dp_7"
+                    android:textColor="@color/black_2A"
+                    android:textColorHint="@color/gray_c8"
+                    android:textSize="@dimen/sp_14" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_half_1"
+                android:background="@color/gray_F6" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_common_select_session_cancel"
+                    style="@style/text16_2A"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/cancel" />
+
+                <View
+                    android:layout_width="@dimen/dp_half_1"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray_F6" />
+
+                <TextView
+                    android:id="@+id/tv_common_select_session_send"
+                    style="@style/text16_d2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/send" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_dialog"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_dialog_sure_sure"
+            style="@style/text16_E1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:background="@drawable/bottom_sure_select"
+            android:gravity="center"
+            android:text="@string/sure" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_10"
+            android:background="@color/gray_F6" />
+
+        <TextView
+            android:id="@+id/tv_dialog_sure_cancel"
+            style="@style/text16_2A"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:background="@drawable/bottom_cancle"
+            android:gravity="center"
+            android:text="@string/cancel" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_white_10"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/text14_2A"
+            android:layout_height="@dimen/dp_40"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="@string/account_is_login" />
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/gray_F6"
+            android:layout_height="@dimen/dp_half_1" />
+
+        <TextView
+            android:id="@+id/tv_common_exit_sure"
+            android:text="@string/sure"
+            android:layout_height="@dimen/dp_40"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            style="@style/text14_2A" />
+
+
+    </LinearLayout>
+</RelativeLayout>

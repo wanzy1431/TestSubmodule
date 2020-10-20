@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_colorPrimary">#6200EE</color>
+    <color name="login_colorPrimaryDark">#3700B3</color>
+    <color name="login_colorAccent">#03DAC5</color>
+    <color name="login_viewLineColor">#E0E0E0</color>
+    <color name="login_appBackColor">#FFF</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="white_30">#4Dffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_alpha">#000000</color>
+    <color name="gray_772">#666666</color>
+    <color name="black_50">#515060</color>
+    <color name="black_02">#021C31</color>
+    <color name="black_02_60">#990E0F11</color>
+    <color name="black_60">#99000000</color>
+    <color name="gray_6602">#66021C31</color>
+    <color name="gray_602A">#992A2928</color>
+    <color name="gray_66">#666360</color>
+    <color name="black_c3">#C3C3C3</color>
+    <color name="blue_72">#7278c5</color>
+    <color name="gray_ee">#eeeeee</color>
+    <color name="white_F7">#F7F8FA</color>
+    <color name="black_505">#505160</color>
+    <color name="gray_C2">#C2C8D5</color>
+    <color name="blue_63">#636ACC</color>
+    <color name="gray_c8">#C8CED7</color>
+    <color name="gray_88">#888998</color>
+    <color name="gray_02_10">#1a021C31</color>
+    <color name="black_02_30">#021C31</color>
+    <color name="black_0E_70">#B30E0F11</color>
+    <color name="black_3E">#3E3C3B</color>
+    <color name="black_30">#302E2D</color>
+    <color name="black_36">#363533</color>
+    <color name="gray_02_20">#33021C31</color>
+    <color name="ripple_gray_eb">#EBEDF0</color>
+    <color name="ripple_gray_88">#888998</color>
+    <color name="textColor">#333333</color>
+    <color name="textColorVice">#6C6C6C</color>
+    <color name="textColorRed">#D51717</color>
+    <color name="textColorHint">#999999</color>
+    <color name="appColor">#FF2041</color>
+    <color name="test_blue">#338BFF</color>
+    <color name="darkgray">#cccc</color>
+    <color name="btn_press_color">#5677fc</color>
+    <color name="btn_pressed_color">#3ca0ec</color>
+    <color name="black_2A">#2A2928</color>
+    <color name="black_5A">#5A5856</color>
+    <color name="gray_a7">#A7AAAF</color>
+    <color name="gray_c1">#C1C7D1</color>
+    <color name="gray_47">#474543</color>
+    <color name="gray_DE">#DEE2EB</color>
+    <color name="yellow_ff">#FFE9CF</color>
+    <color name="yellow_D2">#D2AA68</color>
+    <color name="yellow_DD">#DDBB7F</color>
+    <color name="yellow_ED">#EDD2A7</color>
+    <color name="yellow_cc">#CCA05D</color>
+    <color name="gray_F6">#F6F8FA</color>
+    <color name="gray_93">#FF93969C</color>
+    <color name="gray_9D">#9DA0A6</color>
+    <color name="gray_9B">#9B9895</color>
+    <color name="blue_61">#6192E0</color>
+    <color name="gray_92">#92969C</color>
+    <color name="gray_91">#91949A</color>
+    <color name="gray_C1">#C1C7D1</color>
+    <color name="gray_CB">#CBDCF2</color>
+    <color name="gray_6A">#6A6C70</color>
+    <color name="gray_57">#575C64</color>
+    <color name="gray_EE">#EEF0F2</color>
+    <color name="gray_E8">#E8E9EB</color>
+    <color name="red_E1">#E15D5D</color>
+    <color name="black_00">#000102</color>
+    <color name="app_color_grey">#393a3e</color>
+    <color name="app_color_black">#000000</color>
+    <color name="app_color_f6">#f6f6f6</color>
+    <color name="app_color_fa">#fafafa</color>
+    <color name="app_color_divider">#B6B6B6</color>
+    <color name="app_color_c51">#f94c51</color>
+    <color name="app_color_green">#43c117</color>
+    <color name="app_color_53575e">#53575e</color>
+    <color name="app_color_transparent">#00000000</color>
+    <color name="app_color_white">#FFFFFF</color>
+    <color name="app_color_white_transparent">#E0DBDBDB</color>
+    <color name="app_color_blue">#7D7DFF</color>
+    <color name="app_color_9b">#9b9b9b</color>
+    <color name="app_color_e0ff6100">#E0FF6100</color>
+    <color name="app_color_red">#FF0000</color>
+    <color name="black_2A_20">#332A2928</color>
+    <color name="blue_5B">#5BC0DE</color>
+    <color name="yellow_CC">#CCA05D</color>
+    <color name="slide_bar_hint_color">#CCCCCC</color>
+    // 灰色背景
+    <color name="status_bar_color">#EDEDED</color>
+    <color name="conversation_top_color">#EEF0F2</color>
+    <color name="navigation_bar_color">@color/white</color>
+    <color name="chat_background_color">#ffffff</color>
+
+    // 黑色字体
+    <!--    <color name="black_font_color">#181818</color>-->
+    <color name="black_font_color">#2A2928</color>
+    <color name="text_tips_color">#A5A5A5</color>
+
+    // 线
+    <color name="chat_title_line_color">#E6E6E6</color>
+    <color name="input_title_line_color">#D2D2D2</color>
+
+    <color name="btn_blue_standard_color">#338BFF</color>
+    <color name="item_split_color">#cccccc</color>
+    <color name="split_lint_color">#D9D9D9</color>
+
+    <color name="text_color_black">#000</color>
+    <color name="text_color_gray">#696969</color>
+
+    <color name="font_blue">#066fff</color>
+
+    <color name="voice_pressed">#DEDEDE</color>
+    <color name="voice_normal">#ffffff</color>
+
+    <color name="transparent">#00000000</color>
+    <!--    <color name="conversation_time_color">#b2b2b2</color>-->
+    <color name="conversation_time_color">#C1C7D1</color>
+    <!--    <color name="list_bottom_text_bg">#999999</color>-->
+    <color name="list_bottom_text_bg">#93969C</color>
+    <color name="partTranslucent">#39000000</color>
+    <color name="custom_transparent">#B3000000</color>
+    <color name="dialog_line_bg">#c6c6c6</color>
+    <color name="read_dot_bg">#f74c31</color>
+
+    <color name="line">#DDDDDD</color>
+
+    <color name="text_gray1">#777777</color>
+
+    <color name="title_bar_font_color">#016fff</color>
+
+    <color name="tab_text_selected_color">#006EFF</color>
+    <color name="tab_text_normal_color">#888888</color>
+
+    // 积极钮色值
+    <color name="btn_positive">#00a4ff</color>
+    <color name="btn_positive_hover">#006eff</color>
+
+    // 积极按钮文本色值
+    <color name="text_positive">#ffffff</color>
+    <color name="text_positive_hover">#ffffff</color>
+
+    // 消极按钮背景色值
+    <color name="btn_negative">#ffffff</color>
+    <color name="btn_negative_hover">#cc3428</color>
+
+    // 消极按钮文本色值
+    <color name="text_negative">#fb6155</color>
+    <color name="text_negative_hover">#FFFFFF</color>
+
+    // 聊天昵称/时间条背景色值
+
+    // 聊天发送/光标色值
+    <color name="green">#70C160</color>
+
+    <color name="colorActivityBackground">#ffffff</color>
+    <color name="colorDivider">#737373</color>
+    <color name="textSecond">#737373</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorShade">#33000000</color>
+    //im 新增颜色
+    <color name="gray_5F">#5F6165</color>
+    <color name="cloud_gold">#CCA05D</color>
+
+    <color name="colorFocus">#FF4081</color>
+    <color name="colorDefault">#eeeeee</color>
+    <color name="blue_33">#336594E0</color>
+    <color name="read_ce">#FCCE7474</color>
+    <color name="gray_ec">#FFECEFF6</color>
+    <color name="yellow_f6">#FFF6E6C3</color>
+    <color name="gray_e2">#FFE2E6E9</color>
+    <color name="black_2a">#882A2928</color>
+</resources>

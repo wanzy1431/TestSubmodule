@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_bottom"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_50"
+    android:layout_gravity="bottom"
+    android:background="@color/white">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/gray_F6" />
+
+    <LinearLayout
+        android:id="@+id/ly_common_select_person_count"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_person_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="已选：0人"
+            android:drawablePadding="@dimen/dp_8"
+            android:drawableEnd="@mipmap/up_icon"
+            android:textColor="@color/yellow_CC" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/tv_sure"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_32"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dp_16"
+        android:background="@drawable/rounder_cc_16"
+        android:text="@string/sure"
+        android:textColor="@color/white"
+
+        />
+</RelativeLayout>

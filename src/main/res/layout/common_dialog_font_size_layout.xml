@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_dialog"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_dialog_font_size_largest"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@drawable/bottom_sure_select"
+            android:gravity="center"
+            android:text="@string/largest"
+            android:textColor="@color/black_2A"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_F6" />
+
+        <TextView
+            android:id="@+id/tv_dialog_font_size_large"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/press_select"
+            android:gravity="center"
+            android:text="@string/large"
+            android:textColor="@color/black_2A"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_F6" />
+
+        <TextView
+            android:id="@+id/tv_dialog_font_size_standard"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/press_select"
+            android:gravity="center"
+            android:text="@string/standard"
+            android:textColor="@color/black_2A"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_F6" />
+
+        <TextView
+            android:id="@+id/tv_dialog_font_size_small"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/press_select"
+            android:gravity="center"
+            android:text="@string/small"
+            android:textColor="@color/black_2A"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/gray_F6" />
+
+        <TextView
+            android:id="@+id/tv_dialog_font_size_cancel"
+            style="@style/text16_2A"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bottom_cancle"
+            android:gravity="center"
+            android:text="@string/cancel" />
+    </LinearLayout>
+</RelativeLayout>

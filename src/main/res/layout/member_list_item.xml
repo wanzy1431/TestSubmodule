@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/press_select">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/default_head"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/text16_2A"
+        android:text="刘老师"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_icon"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        style="@style/text14_92"
+        android:id="@+id/tv_type"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_F6"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@id/tv_name" />
+</RelativeLayout>

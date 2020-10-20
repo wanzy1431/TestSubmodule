@@ -1,0 +1,468 @@
+<resources>
+    <string name="app_name">摩信</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="wallet_color_key">wallet_color_key</string>-->
+    <string name="language_key" translatable="false">language_key</string>
+    <string name="chain_name_key" translatable="false">chain_name_key></string>
+    <string name="test_version_key" translatable="false">test_version_key</string>
+    <string name="mac_address" translatable="false">mac_address</string>
+    //sp 存储的key
+    <string name="acount_key" translatable="false">account_key</string>
+    <string name="password_key" translatable="false">password_key</string>
+    <string name="token_key" translatable="false">token_key</string>
+    <string name="user_id_key" translatable="false">user_id_key</string>
+    <string name="user_sign_key" translatable="false">user_sign_key</string>
+    <string name="school_id_key" translatable="false">school_id_key</string>
+    <string name="db_id_key" translatable="false">db_id_key</string>
+    <string name="notice_time_key" translatable="false">notice_time_key</string>
+    <string name="notice_start_time_key" translatable="false">notice_start_time_key</string>
+    <string name="is_first_login_key" translatable="false">is_first_login_key</string>
+    <string name="is_need_refresh_key" translatable="false">is_need_refresh_key</string>
+    <string name="is_select_group_person" translatable="false">is_select_group_person</string>
+    <string name="time_notice" translatable="false">time_notice</string>
+    <string name="receive_notice" translatable="false">receive_notice</string>
+    <string name="receive_sound" translatable="false">receive_sound</string>
+    <string name="show_notice" translatable="false">show_notice</string>
+    <string name="account_type" translatable="false">account_type</string>
+    <string name="user_photo" translatable="false">user_photo</string>
+
+    <string name="loading">正在加载...</string>
+    <string name="loading2">请求数据中</string>
+    <string name="network_busy">网络不给力...</string>
+    <string name="form_qr1">从相册选择</string>
+    <string name="reload">点击重试</string>
+    <string name="net_error">网络不给力</string>
+    <string name="no_dapp">目前还没有DApp信息</string>
+    <string name="nodata">暂无数据</string>
+    <string name="create_transaction_fail">交易生成失败</string>
+    <string name="head_skip">跳过</string>
+
+    // 云通信
+    <string name="chat_top">置顶聊天</string>
+    <string name="chat_delete">删除聊天</string>
+    <string name="quit_chat_top">取消置顶</string>
+
+    // 登录相关
+    <string name="moxinAccount">用户名</string>
+    <string name="password">密码</string>
+
+    // "我"相关
+    <string name="profile">我</string>
+    <string name="id">账号：%1$s</string>
+    <string name="modify_user_icon">修改头像</string>
+    <string name="modify_nick_name">修改昵称</string>
+    <string name="modify_signature">修改个性签名</string>
+    <string name="add_rule">加我为好友时</string>
+    <string name="allow_type_allow_any">允许任何人</string>
+    <string name="allow_type_deny_any">拒绝任何人</string>
+    <string name="allow_type_need_confirm">需要验证</string>
+    <string name="exit">退出登录</string>
+    <string name="about_im">关于即时通信IM</string>
+
+    // 主页Tab相关
+    <string name="tab_contact_tab_text">通讯录</string>
+    <string name="tab_conversation_tab_text">消息</string>
+    <string name="tab_profile_tab_text">我</string>
+
+    // "+"menu相关
+    <string name="add_friend">添加好友</string>
+    <string name="add_group">添加群聊</string>
+    <string name="start_conversation">发起会话</string>
+    <string name="create_group_chat">发起群聊</string>
+    <string name="create_chat_room">创建聊天室</string>
+    <string name="create_private_group">创建讨论组</string>
+    <string name="hint_add_user_id">请输入ID</string>
+    <string name="hint_add_wording">请输入验证消息</string>
+    <string name="contact_add">添加</string>
+    <string name="user_id">对方ID</string>
+    <string name="add_wording">验证消息</string>
+    <string name="scan">扫一扫</string>
+    // 群信息相关
+    <string name="tips_empty_group_member">请选择群成员</string>
+    <string name="tips_empty_group_type">请选择加群方式</string>
+    <string name="no_friend_apply">暂无好友申请</string>
+
+
+    // 新朋友
+    <string name="request_agree">同意</string>
+    <string name="request_accepted">已接受</string>
+    <string name="request_waiting">等待验证</string>
+
+    <string name="test_custom_action">自定义消息</string>
+    <string name="test_custom_message">查看详情>></string>
+    <string name="video_call">视频通话</string>
+    <string name="audio_call">音频通话</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_moxin">登录摩信</string>
+    <string name="login_count_type">请使用摩信账号登录</string>
+    <string name="input_phone">请输入绑定的手机号/账号</string>
+    <string name="login">登录</string>
+    <string name="input_password">请输入密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="verification_code_login">手机验证码登录</string>
+    <string name="third_login">第三方登录</string>
+    <string name="send_code">发送验证码</string>
+    <string name="count_passwrod_login">账号密码登录</string>
+    <string name="input_code">输入验证码</string>
+    <string name="phone">手机号</string>
+    <string name="retrieve">秒后可重新获取</string>
+    <string name="retrieve_code">重新获取验证码</string>
+    <string name="code_phone">%1$s %2$s</string>
+    <string name="code_have_send_phone">验证码已发送至 +86&#160;</string>
+    <string name="code_have_send_email">验证码已发送至邮箱&#160;</string>
+    <string name="phone_format_error">手机格式错误</string>
+    <string name="use_binding_email_change">请使用账号绑定的邮箱验证修改</string>
+    <string name="phone_find_back">手机号验证码找回</string>
+    <string name="email_format_error">邮箱格式错误</string>
+    <string name="use_binding_phone_change">请使用账号绑定的手机号验证修改</string>
+    <string name="email_find_back">邮箱验证码找回</string>
+    <string name="input_bind_phone">请输入绑定的手机号</string>
+    <string name="input_bind_email">请输入绑定的邮箱</string>
+    <string name="sure">确定</string>
+    <string name="password_rule">密码需6-30位，且至少包含小写字母、大写字母、数字、符号中的2种</string>
+    <string name="password_format_error">密码格式错误</string>
+    <string name="bind_no_account">如果没有账号请联系学校管理员获取</string>
+    <string name="input_count_phone">请输入账号/手机号</string>
+    <string name="bind">绑定</string>
+    <string name="bind_moxin_account">绑定摩信账号</string>
+    <string name="select_account">检测到当前账号关联多个身份，请选择登录 登录后，可点击“头像”切换身份</string>
+    <string name="select_user">选择用户</string>
+    <string name="select_count_note">检测到当前账号关联多个账号，请选择需要修改密码的账号</string>
+    <string name="all_select">全选</string>
+    <string name="select_account2">选择账号</string>
+    <string name="authentication">身份验证</string>
+    <string name="authentication_note">请输入您的真实姓名，验证登录身份</string>
+    <string name="input_true_name">请输入您的真实姓名</string>
+    <string name="auto_jump">正在自动跳转…</string>
+    <string name="cancle">取消</string>
+    <string name="call">拨打</string>
+    <string name="call_service_phone">拨打客服电话</string>
+    <string name="validate_code_error">验证码填写错误</string>
+    <string name="sending">发送中...</string>
+    <string name="customer">客服</string>
+    <string name="set_new_password">请设置新密码</string>
+    <string name="logining">登录中...</string>
+    <string name="select_identity">选择身份</string>
+    <string name="net_busy">网络繁忙</string>
+    <string name="jumping">正在跳转...</string>
+    <string name="no_open">该功能暂未开放</string>
+    <string name="teach_and_learn">教与学</string>
+    <string name="message">消息</string>
+    <string name="classes">班级</string>
+    <string name="wait_dealt">待办</string>
+    <string name="input_state">请输入你的状态…</string>
+    <string name="my_card">我的名片</string>
+    <string name="online_service">在线客服</string>
+    <string name="exchange_user">切换用户</string>
+    <string name="set">设置</string>
+    <string name="head">头像</string>
+    <string name="card">名片</string>
+    <string name="name">姓名</string>
+    <string name="phone2">手机</string>
+    <string name="moxin_account">摩信号</string>
+    <string name="email">邮箱</string>
+    <string name="code_card">二维码名片</string>
+    <string name="more">更多</string>
+    <string name="me_information">个人信息</string>
+    <string name="no_binding">未绑定</string>
+    <string name="your_phone_number">你的手机号是：</string>
+    <string name="exchange_phone">更换手机号</string>
+    <string name="eexchange_phone_note">更换手机号后，登录手机号和通讯录号码均改变</string>
+    <string name="department">部门</string>
+    <string name="station">岗位</string>
+    <string name="binding_phone">绑定手机号</string>
+    <string name="input_your_status">请输入您的状态</string>
+    <string name="history">历史状态记录</string>
+    <string name="status">状态</string>
+    <string name="save">保存</string>
+    <string name="collection">收藏</string>
+    <string name="exchagne_user">切换用户</string>
+    <string name="exchange_user_activity">切换用户后，下次登录默认为选中用户</string>
+    <string name="account_and_safe">账号和安全</string>
+    <string name="new_remind">新消息提醒</string>
+    <string name="privacy">隐私</string>
+    <string name="currency">通用</string>
+    <string name="about_moxin">关于摩信</string>
+    <string name="login_out">退出登录</string>
+    <string name="watch_big_pic">查看大图</string>
+    <string name="take_pic">拍摄</string>
+    <string name="insufficient_permission">权限不足</string>
+    <string name="save_success">保存成功</string>
+    <string name="save_error">保存失败</string>
+    <string name="suspension_notice">暂停通知</string>
+    <string name="recovery_notice">恢复通知</string>
+    <string name="notice_count_down_time">通知暂停时间还有%1$s</string>
+    <string name="hour">小时</string>
+    <string name="minute">分钟</string>
+    <string name="stop_notice">暂停通知</string>
+    <string name="thirty_minutes">30分钟</string>
+    <string name="one_hours">1小时</string>
+    <string name="two_hours">2小时</string>
+    <string name="four_hours">4小时</string>
+    <string name="no_notice_mode">勿扰模式</string>
+    <string name="stop_service">内暂停通知</string>
+    <string name="details">详情</string>
+    <string name="search">搜索</string>
+    <string name="link">链接</string>
+    <string name="picture">图片</string>
+    <string name="voice">语音</string>
+    <string name="file">文件</string>
+    <string name="video">视频</string>
+    <string name="transmit">转发</string>
+    <string name="delete">删除</string>
+    <string name="sure_delet">确认删除</string>
+    <string name="password_set">密码设置</string>
+    <string name="account_manager">账号管理</string>
+    <string name="login_device_manage">登录设备管理</string>
+    <string name="clear_account">注销账号</string>
+    <string name="account_and_security">账号和安全</string>
+    <string name="account_manage">账号管理</string>
+    <string name="wechat">微信</string>
+    <string name="input_old_password">请输入原密码</string>
+    <string name="set_password">设置密码</string>
+    <string name="error_password">密码错误</string>
+    <string name="error_new_password">新密码格式错误</string>
+    <string name="now_device">当前登录设备</string>
+    <string name="local">本机</string>
+    <string name="written_off">注销</string>
+    <string name="sure_write_off">确认注销</string>
+    <string name="receive_new_message">接收新消息通知</string>
+    <string name="receive_video_voice_notice">接收语音和视频通话邀请通知</string>
+    <string name="notice2">关闭后，聊天新消息将不再显示发送任何消息内容</string>
+    <string name="voice_shock">声音与震动</string>
+    <string name="notice_switch">通知开关</string>
+    <string name="notice3">通知显示消息详情</string>
+    <string name="notice4">新消息系统通知</string>
+    <string name="notice5">关闭后，聊天新消息将不再显示发送任何消息内容</string>
+    <string name="notice6">收到语音和视频通话邀请的声音与振动</string>
+    <string name="notice7">语音和视频通话邀请</string>
+    <string name="notice8">聊天界面中的新消息通知</string>
+    <string name="notice9">位于聊天界面和聊天列表中收到新消息的声音和振动</string>
+    <string name="new_msg_notice">新消息提醒</string>
+    <string name="add_friend_verification">加我为好友时需要验证</string>
+    <string name="book_black_list">通讯录黑名单</string>
+    <string name="pirvacy">隐私</string>
+    <string name="black_list">通讯录黑名单</string>
+    <string name="remove">移除</string>
+    <string name="sure_remove">确认移除</string>
+    <string name="mode">主题色深色模式</string>
+    <string name="font_size">字体大小</string>
+    <string name="pic_video_file">照片、视频和文件</string>
+    <string name="auto_update">自动更新</string>
+    <string name="common_use">通用</string>
+    <string name="largest">最大</string>
+    <string name="large">大</string>
+    <string name="standard">标准</string>
+    <string name="small">小</string>
+    <string name="picone">其他设备查看的照片、视频和文件在手机上自动下载</string>
+    <string name="auto_download">自动下载</string>
+    <string name="pictwo">拍照或编辑后的内容保存到系统相册</string>
+    <string name="pic2">照片</string>
+    <string name="only_wifi">仅Wi-Fi网络</string>
+    <string name="never">从不</string>
+    <string name="moxin_version">摩信V1.0.0</string>
+    <string name="check_new_version">检查新版本</string>
+    <string name="new_function_introduction">新功能介绍</string>
+    <string name="software_privacy_policy">软件隐私政策</string>
+    <string name="about_ziguang">copyright@2020 紫光互联技术有限公司</string>
+    <string name="top_contacts">常用联系人</string>
+    <string name="my_group">我的群组</string>
+    <string name="organization_list">组织通讯录</string>
+    <string name="outside_school_friend">校外好友</string>
+    <string name="ai_support">AI助理</string>
+    <string name="address_list">通讯录</string>
+    <string name="deans_office">教务处</string>
+    <string name="new_friend">新的好友</string>
+    <string name="have_add">已添加</string>
+    <string name="view">查看</string>
+    <string name="verification_message">验证消息</string>
+    <string name="allow_view_phone">允许对方查看我的手机号</string>
+    <string name="set_remarks">设置备注</string>
+    <string name="pass">通过验证</string>
+    <string name="file_transfer_assistant">文件传输助手</string>
+    <string name="oa_assistant">OA助手</string>
+    <string name="education_assistant">教务助手</string>
+    <string name="teaching_assistant">教学助手</string>
+    <string name="upgrade_assistant">升级助手</string>
+    <string name="ai_assistant">AI助理</string>
+    <string name="send_to">发送给：</string>
+    <string name="start_group">发起群聊</string>
+    <string name="select_contact">选择联系人</string>
+    <string name="group1">选择已有的群</string>
+    <string name="group2">面对面建群</string>
+    <string name="recnet_friend">最近联系人</string>
+    <string name="master">群主</string>
+    <string name="manager">管理员</string>
+    <string name="recent_friend">最近联系人</string>
+    <string name="group">我的群聊</string>
+    <string name="blacklist">黑名单</string>
+    <string name="other_school_friend">校外好友</string>
+    <string name="special_attention">特别关注</string>
+    <string name="contacts">联系人</string>
+    <string name="cancel">取消</string>
+    <string name="cloud_mine">我的云盘</string>
+    <string name="cloud_group">群文件</string>
+    <string name="cloud_class">班级文件</string>
+    <string name="cloud_share">共享文件</string>
+    <string name="pic">图片</string>
+    <string name="photo">拍照</string>
+
+
+    <string name="un_download">未下载</string>
+    <string name="downloaded">已下载</string>
+    <string name="downloading">下载中...</string>
+    <string name="sended">已发送</string>
+    <string name="has_read">已读</string>
+    <string name="unread">未读</string>
+    <string name="typing">正在输入...</string>
+
+    <string name="chat_to_top">置顶聊天</string>
+    <string name="send">发送</string>
+
+    <string name="group_id">群ID</string>
+    <string name="group_name">群聊名称</string>
+    <string name="group_icon">修改群头像</string>
+    <string name="group_notice">群公告</string>
+    <string name="group_members">群成员</string>
+    <string name="group_type">群类型</string>
+    <string name="remove_group_member">移除成员</string>
+    <string name="join_group_type">加群方式</string>
+    <string name="in_group_nick_name">我的群昵称</string>
+    <string name="dissolve">解散该群</string>
+    <string name="modify_group_name">修改群名称</string>
+    <string name="modify_group_notice">修改群公告</string>
+    <string name="modify_nick_name_in_goup">修改我的群昵称</string>
+
+    <string name="group_detail">群聊详情</string>
+    <string name="accept">同意</string>
+    <string name="refuse">拒绝</string>
+    <string name="group_apply_members">群申请</string>
+    <string name="accepted">已同意</string>
+    <string name="refused">已拒绝</string>
+    <string name="group_apply_tips">%1$d 条入群申请</string>
+    <string name="group_apply_click_handle">点击处理</string>
+    <string name="group_remove_member">移出群聊</string>
+    <string name="group_join_type">加群方式</string>
+    <string name="modify_group_name_success">修改群名称成功</string>
+    <string name="modify_group_notice_success">修改群公告成功</string>
+    <string name="exit_group">退出群聊</string>
+    <string name="modify_nickname_success">修改昵称成功</string>
+    <string name="view_original_image">查看原图</string>
+
+    // 联系人相关
+    <!--    <string name="new_friend2">新的联系人</string>-->
+    <!--    <string name="contact_count">%d位联系人</string>-->
+    <!--    <string name="contact_title">通讯录</string>-->
+
+    // 好友资料
+    <string name="profile_detail">详细资料</string>
+    <string name="profile_id">帐号</string>
+    <string name="profile_add_wording">验证消息</string>
+    <string name="profile_remark">设置备注</string>
+    <string name="profile_black">加入黑名单</string>
+    <string name="profile_remark_edit">修改备注</string>
+    <string name="profile_chat">发送消息</string>
+    <string name="profile_del">删除好友</string>
+
+    <string name="search_call_hint">输入群成员名称</string>
+    <string name="schedule">日程</string>
+    <string name="task">任务</string>
+    <string name="approval">审批</string>
+    <string name="location">位置</string>
+    <string name="recent_chat_str">最近聊天</string>
+    <string name="select_group_chat_str">选择群聊</string>
+    <string name="create_group_chat_str">创建新的聊天</string>
+    <string name="cancel_login">取消登录</string>
+    <string name="is_login">已登录</string>
+    <string name="pc_mx_sure">桌面版摩信登录确认</string>
+    <string name="pc_mx_login">桌面版摩信已登录</string>
+    <string name="exit_pc_login">退出桌面版摩信</string>
+    <string name="confirm_remove">确认移除</string>
+    <string name="top">置顶</string>
+    <string name="identify_result">已识别到以下内容</string>
+    <string name="account_is_login">你的账号已在其他手机上登录</string>
+    <string name="select_group">选择群聊</string>
+    <string name="group_meber">群成员</string>
+    <string name="group_manager">群管理</string>
+    <string name="person_chat_manager">聊天管理</string>
+    <string name="add_member">添加成员</string>
+    <string name="delete_member">删除成员</string>
+    <string name="group_code">群二维码</string>
+    <string name="group_announcement">群公告</string>
+    <string name="disturb">消息免打扰</string>
+    <string name="show_group_nickname">显示群成员昵称</string>
+    <string name="save_disk_cloud">群文件自动保存至云盘</string>
+    <string name="group_set">群设置</string>
+    <string name="set_chatbg">设置当前聊天背景</string>
+    <string name="clear_chat_record">清空聊天记录</string>
+    <string name="exit_grop">退出群聊</string>
+    <string name="person">人</string>
+    <string name="group_member">群主、群管理员</string>
+    <string name="select_delete">选择你要删除的人</string>
+    <string name="save_phone">保存到手机</string>
+    <string name="share_code">分享到二维码</string>
+    <string name="code_invitation">二维码邀请</string>
+    <string name="modify_chat_nick_name">修改群昵称</string>
+    <string name="modify_group_chat_name">修改群聊名称</string>
+    <string name="release">发布</string>
+    <string name="notice_no_empty">公告不能为空</string>
+    <string name="release_success">发布成功</string>
+    <string name="_update">更新于%1$s</string>
+    <string name="modify_notice">修改公告</string>
+    <string name="cancle_top">取消置顶</string>
+    <string name="delete_notice">删除公告</string>
+    <string name="setting_one">仅群主和群管理员可管理</string>
+    <string name="setting_two">管理群名称，成员，公告</string>
+    <string name="setting_three">仅群主和群管理员可@所有人</string>
+    <string name="change_master_success">转让成功</string>
+    <string name="select_new_master">选择新群主</string>
+    <string name="sure_destroy">确定解散该群吗</string>
+    <string name="have_log">您已退出</string>
+    <string name="group_manager_person">群管理员</string>
+    <string name="add_manager">添加群管理员</string>
+    <string name="set_success">设置成功</string>
+    <string name="join_black">加入黑名单</string>
+    <string name="remove_black">移出黑名单</string>
+    <string name="search_chat_history">查找聊天记录</string>
+    <string name="take_picture">拍一张</string>
+    <string name="select_photo_album">从相册中选择</string>
+    <string name="select_bg">选择背景图</string>
+    <string name="chat_bg">聊天背景</string>
+    <string name="message_detail">消息详情</string>
+    <string name="new_msg_count">%1$s条新消息</string>
+    <string name="my_group_nick_name">我在本群的昵称</string>
+    <string name="join_group_check">入群验证</string>
+    <string name="new_join_need_check">新成员入群要通过群主或群管理员验证</string>
+    <string name="transfer_group_manager">转让群主</string>
+
+    <string name="workbench">工作台</string>
+    <string name="add_common">添加常用</string>
+    <string name="all_app">全部应用</string>
+    <string name="move_here_delete">拖动到此移除</string>
+    <string name="add_common_app">添加常用应用</string>
+    <string name="more_app">更多应用敬请期待</string>
+
+    <string name="class_msg">班级消息</string>
+    <string name="class_album">班级相册</string>
+    <string name="release_notices">发布通知</string>
+    <string name="release_question">发布问卷</string>
+    <string name="class_default">暂无班级～</string>
+
+    <string name="web_maxtime_record">录音时长最多10分钟</string>
+    <string name="web_add_audio">添加音频</string>
+    <string name="web_start_record">点击开始录音</string>
+    <string name="web_rerecord">重录</string>
+    <string name="web_add_video">添加视频</string>
+
+    <string name="cloud_no_permission_storage" translatable="false">缺少访问手机存储权限</string>
+</resources>
